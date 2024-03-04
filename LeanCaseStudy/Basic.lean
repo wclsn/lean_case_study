@@ -8,12 +8,12 @@ open Real
 -- 对于一个已经证明的theorem, 用与其前提等价的前提或者其析取前件来替换它
 -- have h₂ old := h₂ new
 
-example {a:ℝ} (h₁:a^3>0) : a>0 :=by
-  sorry
-example {a:ℝ} (h₁:a^2=1) (h₂:a>0): a=1 :=by
-  sorry
-example {a:ℝ} (h₁:a^2=1) (h₂:a^3>0): a=1 := by
-  sorry
+-- example {a:ℝ} (h₁:a^3>0) : a>0 :=by
+--   sorry
+-- example {a:ℝ} (h₁:a^2=1) (h₂:a>0): a=1 :=by
+--   sorry
+-- example {a:ℝ} (h₁:a^2=1) (h₂:a^3>0): a=1 := by
+--   sorry
 
 ---- 另外一个case
 example {a b c:ℝ} (h₁: a<b) (h₂: b<c): a<c := by
