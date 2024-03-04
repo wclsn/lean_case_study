@@ -10,14 +10,14 @@ open Real
        and then insert a conjecture
  -/
 
-theorem orig_iff_1 {a:ℝ} (h₁:a^3>0) : a>0 :=by
-  sorry
+-- theorem orig_iff_1 {a:ℝ} (h₁:a^3>0) : a>0 :=by
+--   sorry
 
-theorem orig_iff_2 {a:ℝ} (h₁:a^2=1) (h₂:a>0): a=1 :=by
-  sorry
+-- theorem orig_iff_2 {a:ℝ} (h₁:a^2=1) (h₂:a>0): a=1 :=by
+--   sorry
 
-theorem iff_res {a:ℝ} (h₁:a^2=1) (h₂:a^3>0): a=1 := by
-  sorry
+-- theorem iff_res {a:ℝ} (h₁:a^2=1) (h₂:a^3>0): a=1 := by
+--   sorry
 
 theorem orig_iff__1 {a b c:ℝ} (h₁: a<b) (h₂: b<c): a<c := by
   apply lt_trans
